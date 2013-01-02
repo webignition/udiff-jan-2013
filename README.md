@@ -7,7 +7,7 @@ How I turned broken into working without changing my code.
 
 ## The Developer Problem-Solving Mindset
 
-You're a devleoper, you write code. You write code all day long.
+You're a developer, you write code. You write code all day long.
 
 You write code to build solutions to problems. You modify code to fix problems with your solutions to problems.
 
