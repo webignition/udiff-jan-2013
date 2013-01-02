@@ -15,9 +15,15 @@ You use code to solve your problems.
 
 I fixed major system-wide performance problems without touching a line of code. The results were orders of magnitude greater than any code change.
 
-## Background
+## SimlpyTestable.com Test Lifecycle
 
-content
+Simply Testable is a distributed test task management system where each task is a specific test carried out against a specific URL.
+
+It consists of 7 applications communicating over HTTP:
+
+- web interface where the user inputs the site to test, views progress and views results
+- core application which breaks down a full-site test into tasks, assigns tasks to workers and recieves results from workers
+- 5 workers; a worker performs an assigned task and reports results back to the core application
 
 ## Nginx Instead of Apache
 
